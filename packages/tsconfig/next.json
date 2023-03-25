@@ -7,6 +7,5 @@
     "lib": ["DOM", "ESNext"],
     "jsx": "preserve",
     "noEmit": true
-  },
-  "exclude": [".next", "node_modules"]
+  }
 }
