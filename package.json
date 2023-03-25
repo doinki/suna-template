@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "test": "turbo test",
+    "test:coverage": "turbo test:coverage",
     "test:watch": "turbo test:watch",
     "lint": "turbo lint",
     "hooks": "pnpm --filter=@suna/hooks",

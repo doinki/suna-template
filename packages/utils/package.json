@@ -5,6 +5,7 @@
   "types": "src/index.ts",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint ."
   },

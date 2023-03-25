@@ -3,6 +3,7 @@
   "pipeline": {
     "lint": { "outputs": [".eslintcache"] },
     "test": {},
+    "test:coverage": { "outputs": ["coverage/**"] },
     "test:watch": { "cache": false }
   }
 }
