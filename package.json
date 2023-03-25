@@ -8,6 +8,8 @@
     "packages/*"
   ],
   "scripts": {
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
     "lint": "turbo lint",
     "utils": "pnpm --filter=@suna/utils",
     "postinstall": "husky install"
