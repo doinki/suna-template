@@ -1,7 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
-    "lint": { "outputs": [".eslintcache"] },
+    "lint": {},
     "test": {},
     "test:coverage": { "outputs": ["coverage/**"] },
     "test:watch": { "cache": false }
