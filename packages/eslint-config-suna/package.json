@@ -61,6 +61,7 @@
     "eslint-plugin-typescript-sort-keys": "^2.3.0"
   },
   "devDependencies": {
+    "@types/node": "^18.15.9",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
