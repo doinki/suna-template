@@ -1,8 +1,14 @@
 {
   "name": "@suna/hooks",
   "private": true,
+  "peerDependencies": {
+    "@suna/utils": "workspace:*",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
   "devDependencies": {
     "@suna/tsconfig": "workspace:*",
+    "@suna/utils": "workspace:*",
     "@types/node": "^18.15.9",
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
