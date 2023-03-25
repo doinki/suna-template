@@ -1,7 +1,8 @@
 {
   "exports": {
     "./base": "./base.json",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./react": "./react.json"
   },
   "name": "@suna/tsconfig",
   "private": true
