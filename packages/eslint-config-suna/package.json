@@ -1,0 +1,7 @@
+{
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "name": "eslint-config-suna",
+  "private": true
+}
