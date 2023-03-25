@@ -7,6 +7,7 @@
     "./configs/testing-library",
     "./configs/storybook",
     "./configs/tailwindcss",
-    "./configs/prettier"
+    "./configs/prettier",
+    "./configs/custom"
   ]
 }
