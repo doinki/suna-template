@@ -1,6 +1,8 @@
 {
+  "main": "src/index.ts",
   "name": "@suna/utils",
   "private": true,
+  "types": "src/index.ts",
   "scripts": {
     "lint": "eslint ."
   },
