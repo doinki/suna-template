@@ -1,1 +1,1 @@
-{ "*.json": "pnpm prettier --write" }
+{ "*.@(j|t)s?(x)": "pnpm eslint --fix", "*.json": "pnpm prettier --write" }
