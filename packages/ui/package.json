@@ -1,4 +1,8 @@
 {
   "name": "@suna/ui",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@suna/tsconfig": "workspace:*",
+    "typescript": "^5.0.2"
+  }
 }
