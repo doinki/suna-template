@@ -1,13 +1,22 @@
 {
   "name": "@suna/ui",
   "private": true,
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@suna/tsconfig": "workspace:*",
+    "@types/node": "^18.15.9",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
     "eslint-config-suna": "workspace:*",
     "prettier": "^2.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.0.2"
   }
 }
