@@ -1,0 +1,6 @@
+{
+  "name": "suna-template",
+  "packageManager": "pnpm@7.30.3",
+  "private": true,
+  "version": "1.0.0"
+}
