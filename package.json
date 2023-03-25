@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+    "lint": "turbo lint",
     "postinstall": "husky install"
   },
   "devDependencies": {
