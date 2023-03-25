@@ -1,6 +1,9 @@
 {
   "name": "@suna/utils",
   "private": true,
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@suna/tsconfig": "workspace:*",
     "@types/node": "^18.15.9",
