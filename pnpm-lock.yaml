@@ -14,6 +14,9 @@ importers:
       prettier: 2.8.7
       turbo: 1.8.5
 
+  packages/tsconfig:
+    specifiers: {}
+
 packages:
 
   /aggregate-error/3.1.0:

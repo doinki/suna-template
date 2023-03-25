@@ -1,0 +1,7 @@
+{
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "name": "@suna/tsconfig",
+  "private": true
+}
