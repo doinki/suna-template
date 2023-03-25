@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "lint": "turbo lint",
+    "utils": "pnpm --filter=@suna/utils",
     "postinstall": "husky install"
   },
   "devDependencies": {
