@@ -79,6 +79,9 @@ importers:
       tailwindcss: 3.2.7
       typescript: 5.0.2
 
+  packages/hooks:
+    specifiers: {}
+
   packages/tsconfig:
     specifiers: {}
 
