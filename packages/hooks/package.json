@@ -1,6 +1,8 @@
 {
+  "main": "src/index.ts",
   "name": "@suna/hooks",
   "private": true,
+  "types": "src/index.ts",
   "peerDependencies": {
     "@suna/utils": "workspace:*",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
