@@ -1,0 +1,4 @@
+{
+  "extends": "@suna/tsconfig/base",
+  "compilerOptions": { "lib": ["DOM", "ESNext"] }
+}

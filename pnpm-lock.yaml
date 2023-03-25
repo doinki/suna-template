@@ -81,7 +81,12 @@ importers:
     specifiers: {}
 
   packages/utils:
-    specifiers: {}
+    specifiers:
+      '@suna/tsconfig': workspace:*
+      typescript: ^5.0.2
+    devDependencies:
+      '@suna/tsconfig': link:../tsconfig
+      typescript: 5.0.2
 
 packages:
 
