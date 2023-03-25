@@ -1,6 +1,7 @@
 {
   "exports": {
     "./base": "./base.json",
+    "./next": "./next.json",
     "./package.json": "./package.json",
     "./react": "./react.json"
   },
