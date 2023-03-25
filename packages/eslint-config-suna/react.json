@@ -9,5 +9,10 @@
     "./configs/tailwindcss",
     "./configs/prettier",
     "./configs/custom"
-  ]
+  ],
+  "settings": {
+    "tailwindcss": {
+      "callees": ["classnames", "clsx", "ctl", "twJoin", "twMerge"]
+    }
+  }
 }
