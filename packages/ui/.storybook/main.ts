@@ -5,6 +5,10 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     '@storybook/addon-links',
+    {
+      name: '@storybook/addon-postcss',
+      options: { postcssLoaderOptions: { implementation: require('postcss') } },
+    },
   ],
   docs: { autodocs: 'tag' },
   framework: { name: '@storybook/react-webpack5', options: {} },
