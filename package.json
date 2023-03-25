@@ -13,6 +13,7 @@
     "test:watch": "turbo test:watch",
     "lint": "turbo lint",
     "hooks": "pnpm --filter=@suna/hooks",
+    "ui": "pnpm --filter=@suna/ui",
     "utils": "pnpm --filter=@suna/utils",
     "postinstall": "husky install"
   },

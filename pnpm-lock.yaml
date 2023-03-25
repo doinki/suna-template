@@ -122,6 +122,9 @@ importers:
   packages/tsconfig:
     specifiers: {}
 
+  packages/ui:
+    specifiers: {}
+
   packages/utils:
     specifiers:
       '@suna/tsconfig': workspace:*
