@@ -1,0 +1,4 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["./configs/base", "./configs/jest", "./configs/prettier"]
+}

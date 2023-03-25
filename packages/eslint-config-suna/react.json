@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": [
+    "./configs/react",
+    "./configs/jest",
+    "./configs/jest-dom",
+    "./configs/testing-library",
+    "./configs/storybook",
+    "./configs/tailwindcss",
+    "./configs/prettier"
+  ]
+}
