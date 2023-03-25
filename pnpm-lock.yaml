@@ -125,9 +125,19 @@ importers:
   packages/ui:
     specifiers:
       '@suna/tsconfig': workspace:*
+      '@typescript-eslint/eslint-plugin': ^5.56.0
+      '@typescript-eslint/parser': ^5.56.0
+      eslint: ^8.36.0
+      eslint-config-suna: workspace:*
+      prettier: ^2.8.7
       typescript: ^5.0.2
     devDependencies:
       '@suna/tsconfig': link:../tsconfig
+      '@typescript-eslint/eslint-plugin': 5.56.0_2hcjazgfnbtq42tcc73br2vup4
+      '@typescript-eslint/parser': 5.56.0_j4766f7ecgqbon3u7zlxn5zszu
+      eslint: 8.36.0
+      eslint-config-suna: link:../eslint-config-suna
+      prettier: 2.8.7
       typescript: 5.0.2
 
   packages/utils:
