@@ -2,6 +2,7 @@
   "main": "src/index.ts",
   "name": "@suna/hooks",
   "private": true,
+  "sideEffects": false,
   "types": "src/index.ts",
   "scripts": {
     "test": "jest",

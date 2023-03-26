@@ -2,6 +2,7 @@
   "main": "src/index.ts",
   "name": "@suna/ui",
   "private": true,
+  "sideEffects": false,
   "types": "src/index.ts",
   "scripts": {
     "storybook": "storybook dev -p 6006",
