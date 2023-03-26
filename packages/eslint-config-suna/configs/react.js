@@ -50,4 +50,9 @@ module.exports = {
   parserOptions: { ecmaVersion: 'latest' },
   plugins: ['salt', 'trim'],
   rules,
+  settings: {
+    tailwindcss: {
+      callees: ['classnames', 'clsx', 'ctl', 'twJoin', 'twMerge'],
+    },
+  },
 };
