@@ -9,10 +9,16 @@ export interface SkeletonProps extends HTMLAttributes<HTMLElement> {
    */
   animation?: SkeletonAnimation | false;
 
+  /**
+   * @default 'span'
+   */
   component?: ElementType;
 
   height?: string | number;
 
+  /**
+   * @default 'text'
+   */
   variant?: SkeletonVariant;
 
   width?: string | number;
