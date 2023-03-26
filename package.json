@@ -12,6 +12,7 @@
     "test:coverage": "turbo test:coverage",
     "test:watch": "turbo test:watch",
     "lint": "turbo lint",
+    "challenges": "pnpm --filter=challenges",
     "hooks": "pnpm --filter=@suna/hooks",
     "ui": "pnpm --filter=@suna/ui",
     "utils": "pnpm --filter=@suna/utils",
