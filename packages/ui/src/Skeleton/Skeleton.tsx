@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { twJoin } from 'tailwind-merge';
 
-import { variants } from './skeletonClasses';
+import classes from './skeletonClasses';
 import type { SkeletonProps } from './skeletonTypes';
 
 const Skeleton: FC<SkeletonProps> = (props) => {
@@ -22,8 +22,8 @@ const Skeleton: FC<SkeletonProps> = (props) => {
       aria-live="polite"
       className={twJoin(
         'block bg-black/10',
-        animation === 'pulse' && 'animate-skeleton-pulse duration-75',
-        variants[variant](),
+        animation && classes.animations[animation](),
+        classes.variants[variant](),
         className
       )}
       style={{ ...style, height, width }}
