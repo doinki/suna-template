@@ -21,12 +21,12 @@ const Skeleton: FC<SkeletonProps> = (props) => {
       aria-busy={Boolean(animation)}
       aria-live="polite"
       className={twJoin(
-        'block bg-black/10',
+        'block bg-black/10 [&>*]:invisible',
         animation && classes.animations[animation](),
         classes.variants[variant](),
         className
       )}
-      style={{ ...style, height, width }}
+      style={{ height, width, ...style }}
       {...rest}
     />
   );
