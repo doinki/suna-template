@@ -5,7 +5,6 @@
     "incremental": true,
     "isolatedModules": true,
     "lib": ["DOM", "ESNext"],
-    "jsx": "preserve",
-    "noEmit": true
+    "jsx": "preserve"
   }
 }
