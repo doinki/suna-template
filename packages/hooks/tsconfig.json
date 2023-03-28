@@ -1,1 +1,5 @@
-{ "extends": "@suna/tsconfig/react", "exclude": ["dist", "node_modules"] }
+{
+  "extends": "@suna/tsconfig/react",
+  "compilerOptions": { "outDir": "dist" },
+  "exclude": ["dist", "node_modules"]
+}

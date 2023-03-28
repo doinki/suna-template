@@ -1,5 +1,5 @@
 {
   "extends": "@suna/tsconfig/base",
-  "compilerOptions": { "lib": ["DOM", "ESNext"] },
+  "compilerOptions": { "lib": ["DOM", "ESNext"], "outDir": "dist" },
   "exclude": ["dist", "node_modules"]
 }
