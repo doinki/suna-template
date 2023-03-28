@@ -6,6 +6,7 @@
   "types": "src/index.ts",
   "scripts": {
     "storybook": "storybook dev -p 6006",
+    "build": "tsc",
     "build:storybook": "storybook build",
     "test": "jest",
     "test:coverage": "jest --coverage",

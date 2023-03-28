@@ -5,6 +5,7 @@
   "sideEffects": false,
   "types": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
