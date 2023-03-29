@@ -1,10 +1,17 @@
 /* eslint-disable */
 
+const plugin = require('tailwindcss/plugin');
+
 /**
  * @type {import('tailwindcss').Config}
  */
 module.exports = {
   content: ['src/**/*.@(j|t)s?(x)', 'stories/**/*.@(j|t)s?(x)'],
+  plugins: [
+    plugin(({ addVariant }) => {
+      addVariant('child', '& > *');
+    }),
+  ],
   theme: {
     extend: {
       keyframes: {
@@ -16,8 +23,8 @@ module.exports = {
       animation: {
         'skeleton-pulse': 'skeleton-pulse 1.5s ease-in-out 0.5s infinite',
       },
-      scale: { 60: '0.6' },
       content: { nbsp: '"\u00A0"' },
+      scale: { 60: '0.6' },
     },
   },
 };
