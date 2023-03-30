@@ -19,7 +19,7 @@
   "devDependencies": {
     "@suna/tsconfig": "workspace:*",
     "@suna/utils": "workspace:*",
-    "@swc/core": "^1.3.42",
+    "@swc/core": "^1.3.44",
     "@swc/jest": "^0.2.24",
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",
