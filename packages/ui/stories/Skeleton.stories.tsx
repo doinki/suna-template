@@ -11,7 +11,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Variants: Story = {
+export const Variant: Story = {
   render: () => (
     <ul className="space-y-4">
       <li>
@@ -34,7 +34,7 @@ export const Variants: Story = {
   ),
 };
 
-export const Animations: Story = {
+export const Animation: Story = {
   render: () => (
     <ul className="space-y-4">
       <li>
