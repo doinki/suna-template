@@ -25,6 +25,6 @@
     "eslint": "^8.37.0",
     "eslint-config-suna": "workspace:*",
     "prettier": "^2.8.7",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.3"
   }
 }
