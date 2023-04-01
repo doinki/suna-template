@@ -1,25 +1,35 @@
-import type { ElementType, HTMLAttributes } from 'react';
+import type { ElementType } from 'react';
+
+import type { OverrideProps } from '../types';
 
 export type SkeletonAnimation = 'pulse';
 export type SkeletonVariant = 'circular' | 'rectangular' | 'rounded' | 'text';
 
-export interface SkeletonProps extends HTMLAttributes<HTMLElement> {
-  /**
-   * @default 'pulse'
-   */
-  animation?: SkeletonAnimation | false;
+export interface SkeletonTypeMap<P = {}, D extends ElementType = 'span'> {
+  defaultComponent: D;
+  props: P & {
+    /**
+     * @default 'pulse'
+     */
+    animation?: SkeletonAnimation | false;
 
-  /**
-   * @default 'span'
-   */
-  component?: ElementType;
+    /**
+     * @default 'span'
+     */
+    component?: ElementType;
 
-  height?: string | number;
+    height?: number | string;
 
-  /**
-   * @default 'text'
-   */
-  variant?: SkeletonVariant;
+    /**
+     * @default 'text'
+     */
+    variant?: SkeletonVariant;
 
-  width?: string | number;
+    width?: number | string;
+  };
 }
+
+export type SkeletonProps<
+  P = {},
+  D extends React.ElementType = SkeletonTypeMap['defaultComponent']
+> = OverrideProps<SkeletonTypeMap<P, D>, D>;

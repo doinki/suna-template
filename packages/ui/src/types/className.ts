@@ -1,9 +1,7 @@
 export type ClassNameValue =
-  | ClassNameArray
+  | ClassNameValue[]
   | string
   | false
   | 0
   | null
   | undefined;
-
-export type ClassNameArray = ClassNameValue[];

@@ -1,10 +1,14 @@
-import type { FC } from 'react';
+import { forwardRef } from 'react';
 import { twJoin } from 'tailwind-merge';
 
-import classes from './skeletonClasses';
-import type { SkeletonProps } from './skeletonTypes';
+import type { OverridableComponent } from '../types';
+import skeletonClasses from './skeletonClasses';
+import type { SkeletonProps, SkeletonTypeMap } from './skeletonTypes';
 
-const Skeleton: FC<SkeletonProps> = (props) => {
+const Skeleton: OverridableComponent<SkeletonTypeMap> = forwardRef<
+  HTMLElement,
+  SkeletonProps
+>((props, ref) => {
   const {
     animation = 'pulse',
     className,
@@ -13,23 +17,22 @@ const Skeleton: FC<SkeletonProps> = (props) => {
     style,
     variant = 'text',
     width,
-    ...rest
+    ...other
   } = props;
 
   return (
     <Component
-      aria-busy={Boolean(animation)}
-      aria-live="polite"
+      ref={ref}
       className={twJoin(
-        'block bg-black/10 [&>*]:invisible',
-        animation && classes.animations[animation](),
-        classes.variants[variant](),
+        'block bg-black/10 child:invisible',
+        animation && skeletonClasses.animations[animation](),
+        skeletonClasses.variants[variant](),
         className
       )}
       style={{ height, width, ...style }}
-      {...rest}
+      {...other}
     />
   );
-};
+});
 
 export default Skeleton;
