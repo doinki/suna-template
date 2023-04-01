@@ -1,4 +1,5 @@
 {
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
   "tailwindCSS.experimental.configFile": {
     "apps/challenges/tailwind.config.js": "apps/challenges/**",
     "apps/material-ui/tailwind.config.js": "apps/material-ui/**",
