@@ -14,6 +14,7 @@
     "test:watch": "turbo test:watch",
     "lint": "turbo lint",
     "challenges": "pnpm --filter=challenges",
+    "material-ui": "pnpm --filter=material-ui",
     "hooks": "pnpm --filter=@suna/hooks",
     "ui": "pnpm --filter=@suna/ui",
     "utils": "pnpm --filter=@suna/utils",

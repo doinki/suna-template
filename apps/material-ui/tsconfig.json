@@ -1,0 +1,10 @@
+{
+  "extends": "@suna/tsconfig/next",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsxImportSource": "@emotion/react",
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "exclude": [".next", "node_modules"],
+  "include": ["next-env.d.ts", "src"]
+}
