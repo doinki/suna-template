@@ -4,4 +4,9 @@
 module.exports = {
   extends: 'suna/next',
   parserOptions: { project: require.resolve('./tsconfig.json') },
+  settings: {
+    'import/resolver': {
+      typescript: { project: require.resolve('./tsconfig.json') },
+    },
+  },
 };
