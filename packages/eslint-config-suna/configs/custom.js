@@ -8,7 +8,13 @@ module.exports = {
   rules: {
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['**/*.test.ts?(x)', '**/jest.setup.ts'] },
+      {
+        devDependencies: [
+          '**/*.test.ts?(x)',
+          '**/jest.setup.ts',
+          '**/next.config.js',
+        ],
+      },
     ],
     'import/prefer-default-export': 'off',
   },

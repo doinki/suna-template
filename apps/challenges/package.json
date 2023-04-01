@@ -27,6 +27,7 @@
     "eslint-config-suna": "workspace:*",
     "prettier": "^2.8.7",
     "tailwindcss": "^3.3.1",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0"
   }
 }
