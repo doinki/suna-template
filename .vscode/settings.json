@@ -1,5 +1,7 @@
 {
   "tailwindCSS.experimental.configFile": {
+    "apps/challenges/tailwind.config.js": "apps/challenges/**",
+    "apps/material-ui/tailwind.config.js": "apps/material-ui/**",
     "packages/ui/tailwind.config.js": "packages/ui/**"
   }
 }
