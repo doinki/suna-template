@@ -8,15 +8,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@suna/hooks": "workspace:*",
+    "@suna/ui": "workspace:*",
+    "@suna/utils": "workspace:*",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@suna/hooks": "workspace:*",
     "@suna/tsconfig": "workspace:*",
-    "@suna/ui": "workspace:*",
-    "@suna/utils": "workspace:*",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
