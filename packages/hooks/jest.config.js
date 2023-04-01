@@ -2,6 +2,12 @@
  * @type {import('jest').Config}
  */
 module.exports = {
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironment: 'jsdom',
-  transform: { '\\.(j|t)s$': '@swc/jest' },
+  transform: {
+    '\\.(j|t)sx?$': [
+      '@swc/jest',
+      { jsc: { transform: { react: { runtime: 'automatic' } } } },
+    ],
+  },
 };
