@@ -1,6 +1,6 @@
 {
   "name": "suna-template",
-  "packageManager": "pnpm@8.1.0",
+  "packageManager": "pnpm@8.1.1",
   "private": true,
   "version": "1.0.0",
   "workspaces": [
