@@ -11,7 +11,7 @@ const Document = ({ emotionStyleTags }: ExtendedDocumentProps) => {
   return (
     <Html lang="en">
       <Head>
-        <link href="/icons/volleyball_two_tone.svg" rel="icon" />
+        <link href="/circle.svg" rel="icon" />
         <meta content="" name="emotion-insertion-point" />
         {emotionStyleTags}
       </Head>
