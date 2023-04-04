@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "turbo build",
+    "build:storybook": "turbo build:storybook",
     "test": "turbo test",
     "test:coverage": "turbo test:coverage",
     "test:watch": "turbo test:watch",
