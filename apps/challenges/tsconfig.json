@@ -1,6 +1,5 @@
 {
   "extends": "@suna/tsconfig/next",
   "compilerOptions": { "baseUrl": ".", "paths": { "@/*": ["./src/*"] } },
-  "exclude": [".next", "node_modules"],
-  "include": ["next-env.d.ts", "src"]
+  "exclude": [".next", ".turbo", "coverage", "dist", "node_modules"]
 }

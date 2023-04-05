@@ -1,5 +1,5 @@
 {
   "extends": "@suna/tsconfig/react",
   "compilerOptions": { "outDir": "dist" },
-  "exclude": ["dist", "node_modules"]
+  "exclude": [".turbo", "coverage", "dist", "node_modules", "storybook-static"]
 }

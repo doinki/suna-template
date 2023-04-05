@@ -5,7 +5,7 @@
   "sideEffects": false,
   "types": "src/index.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
