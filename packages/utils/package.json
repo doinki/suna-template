@@ -12,7 +12,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@suna/tsconfig": "workspace:*",
+    "@suna/tsconfig": "workspace:^",
     "@swc/core": "^1.3.46",
     "@swc/jest": "^0.2.24",
     "@types/jest": "^29.5.0",
@@ -20,7 +20,7 @@
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "eslint": "^8.37.0",
-    "eslint-config-suna": "workspace:*",
+    "eslint-config-suna": "workspace:^",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "prettier": "^2.8.7",
