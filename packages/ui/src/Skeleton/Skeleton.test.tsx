@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { twJoin } from 'tailwind-merge';
 
-import type { SkeletonVariant } from '../src';
-import { Skeleton, skeletonClasses } from '../src';
+import Skeleton from './Skeleton';
+import skeletonClasses from './skeletonClasses';
+import type { SkeletonVariant } from './skeletonTypes';
 
 const testId = 'skeleton';
 
