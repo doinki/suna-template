@@ -12,7 +12,7 @@ const config: StorybookConfig = {
   ],
   docs: { autodocs: 'tag' },
   framework: { name: '@storybook/react-webpack5', options: {} },
-  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(j|t)s?(x)'],
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(j|t)s?(x)'],
 };
 
 export default config;
