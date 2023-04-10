@@ -2,6 +2,7 @@ import '@/styles/tailwind.css';
 
 import { CacheProvider } from '@emotion/react';
 import CssBaseline from '@mui/material/CssBaseline';
+import { noop } from '@suna/utils';
 import { useEffect } from 'react';
 
 import type { ExtendedAppProps } from '@/types';
@@ -13,7 +14,10 @@ const App = ({
   Component,
   emotionCache = clientSideEmotionCache,
   pageProps,
+  router,
 }: ExtendedAppProps) => {
+  const getLayout = Component.getLayout || noop;
+
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
     const isSafari =
@@ -27,7 +31,7 @@ const App = ({
   return (
     <CacheProvider value={emotionCache}>
       <CssBaseline />
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />, { pageProps, router })}
     </CacheProvider>
   );
 };
