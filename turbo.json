@@ -9,7 +9,7 @@
       "dependsOn": ["^build:storybook"],
       "outputs": ["storybook-static/**"]
     },
-    "check-types": { "dependsOn": ["^check-types"] },
+    "check-types": { "dependsOn": ["^build"] },
     "dev": { "cache": false, "persistent": true },
     "lint": { "outputs": [".eslintcache"] },
     "storybook": { "cache": false, "persistent": true },
