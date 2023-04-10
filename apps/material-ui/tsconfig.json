@@ -5,5 +5,5 @@
     "jsxImportSource": "@emotion/react",
     "paths": { "@/*": ["./src/*"] }
   },
-  "exclude": [".next", ".turbo", "coverage", "dist", "node_modules"]
+  "exclude": [".next", ".turbo", "coverage", "node_modules", "storybook-static"]
 }
