@@ -2090,6 +2090,8 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+      react:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@emotion/babel-plugin': 11.10.6
@@ -2140,6 +2142,8 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+      react:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@emotion/babel-plugin': 11.10.6
@@ -2160,6 +2164,9 @@ packages:
     resolution: {integrity: sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==}
     peerDependencies:
       react: '>=16.8.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       react: 18.2.0
 
@@ -2713,6 +2720,9 @@ packages:
     resolution: {integrity: sha512-zQH//gdOmuu7nt2oJR29vFhDv88oGPmVw6BggmrHeMI+xgEkp1B2dX9/bMBSYtK0dyLX/aOmesKS09g222K1/g==}
     peerDependencies:
       react: '>=16'
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       '@types/mdx': 2.0.4
       '@types/react': 18.0.34
@@ -2728,6 +2738,10 @@ packages:
       react-dom: ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
+        optional: true
+      react:
+        optional: true
+      react-dom:
         optional: true
     dependencies:
       '@babel/runtime': 7.21.0
@@ -2763,6 +2777,10 @@ packages:
         optional: true
       '@types/react':
         optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@emotion/react': 11.10.6(@types/react@18.0.34)(react@18.2.0)
@@ -2792,6 +2810,8 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+      react:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@mui/utils': 5.11.13(react@18.2.0)
@@ -2811,6 +2831,8 @@ packages:
       '@emotion/react':
         optional: true
       '@emotion/styled':
+        optional: true
+      react:
         optional: true
     dependencies:
       '@babel/runtime': 7.21.0
@@ -2836,6 +2858,8 @@ packages:
       '@emotion/styled':
         optional: true
       '@types/react':
+        optional: true
+      react:
         optional: true
     dependencies:
       '@babel/runtime': 7.21.0
@@ -2868,6 +2892,9 @@ packages:
     engines: {node: '>=12.0.0'}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@types/prop-types': 15.7.5
@@ -3223,6 +3250,10 @@ packages:
     peerDependenciesMeta:
       '@storybook/mdx1-csf':
         optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@babel/core': 7.21.4
       '@babel/plugin-transform-react-jsx': 7.21.0(@babel/core@7.21.4)
@@ -3256,6 +3287,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/addon-actions': 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-backgrounds': 7.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -3524,6 +3560,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/manager-api': 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/preview-api': 7.0.2
@@ -3558,6 +3599,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/channels': 7.0.2
       '@storybook/client-logger': 7.0.2
@@ -3617,6 +3663,10 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       typescript: '*'
     peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
       typescript:
         optional: true
     dependencies:
@@ -3786,6 +3836,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/client-logger': 7.0.2
       '@storybook/csf': 0.1.0
@@ -3974,6 +4029,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/channels': 7.0.2
       '@storybook/client-logger': 7.0.2
@@ -4035,6 +4095,10 @@ packages:
       typescript: '*'
     peerDependenciesMeta:
       '@babel/core':
+        optional: true
+      react:
+        optional: true
+      react-dom:
         optional: true
       typescript:
         optional: true
@@ -4121,6 +4185,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -4136,6 +4205,10 @@ packages:
       typescript: '*'
     peerDependenciesMeta:
       '@babel/core':
+        optional: true
+      react:
+        optional: true
+      react-dom:
         optional: true
       typescript:
         optional: true
@@ -4171,6 +4244,10 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       typescript: '*'
     peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
       typescript:
         optional: true
     dependencies:
@@ -4207,6 +4284,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@storybook/client-logger': 7.0.2
       memoizerific: 1.11.3
@@ -4244,6 +4326,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.0(react@18.2.0)
       '@storybook/client-logger': 7.0.2
@@ -4447,6 +4534,11 @@ packages:
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       '@testing-library/dom': 9.2.0
@@ -5385,6 +5477,9 @@ packages:
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       caniuse-lite: 1.0.30001477
@@ -8107,6 +8202,9 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -9335,6 +9433,9 @@ packages:
     engines: {node: '>= 10'}
     peerDependencies:
       react: '>= 0.14.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       react: 18.2.0
     dev: true
@@ -9572,6 +9673,10 @@ packages:
       fibers:
         optional: true
       node-sass:
+        optional: true
+      react:
+        optional: true
+      react-dom:
         optional: true
       sass:
         optional: true
@@ -10047,6 +10152,9 @@ packages:
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.0.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -10058,6 +10166,9 @@ packages:
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       camelcase-css: 2.0.1
       postcss: 8.4.21
@@ -10084,6 +10195,9 @@ packages:
     peerDependencies:
       postcss: ^7.0.0 || ^8.0.1
       webpack: ^4.0.0 || ^5.0.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       cosmiconfig: 7.1.0
       klona: 2.0.6
@@ -10106,6 +10220,9 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -10125,6 +10242,9 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.21)
       postcss: 8.4.21
@@ -10145,6 +10265,9 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
@@ -10162,6 +10285,9 @@ packages:
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.21)
       postcss: 8.4.21
@@ -10172,6 +10298,9 @@ packages:
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
@@ -10214,6 +10343,9 @@ packages:
     resolution: {integrity: sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==}
     peerDependencies:
       preact: '>=10'
+    peerDependenciesMeta:
+      preact:
+        optional: true
     dependencies:
       pretty-format: 3.8.0
     dev: true
@@ -10421,6 +10553,11 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -10457,6 +10594,9 @@ packages:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
@@ -10467,6 +10607,11 @@ packages:
     peerDependencies:
       react: ^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1 || ^18.0.0
       react-dom: ^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@base2/pretty-print-object': 1.0.1
       is-plain-object: 5.0.0
@@ -10479,6 +10624,9 @@ packages:
     resolution: {integrity: sha512-cxKSeFTf7jpSSVddm66sKdolG90qURAX3g1roTeaN6x0YEbtWc8JpmFN9+yIqLNH2uEkYerWLtJZIXRIFuBKrg==}
     peerDependencies:
       react: ^16.8.4 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       react: 18.2.0
     dev: true
@@ -10505,6 +10653,9 @@ packages:
     resolution: {integrity: sha512-oScf2FqQ9LFVQgA73vr86xl2NaOIX73rh+YFqcOp68CWj56tSfgtGKrEbyhCj0rSijyG9M1CYprTh39fBi5hzA==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       object-assign: 4.1.1
       react: 18.2.0
@@ -10515,6 +10666,9 @@ packages:
     resolution: {integrity: sha512-JWD+aQ0lh2gvh4NM3bBM42Kx+XybOxCpgYK7F8ugAlpaTSnWsX+39Z4XkOykGZAHrjwwTZT3x3KxswVWxHPUqA==}
     peerDependencies:
       react: ^18.2.0
+    peerDependenciesMeta:
+      react:
+        optional: true
     dependencies:
       react: 18.2.0
       react-is: 18.2.0
@@ -10527,6 +10681,11 @@ packages:
     peerDependencies:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@babel/runtime': 7.21.0
       dom-helpers: 5.2.1
@@ -11340,6 +11499,8 @@ packages:
         optional: true
       babel-plugin-macros:
         optional: true
+      react:
+        optional: true
     dependencies:
       client-only: 0.0.1
       react: 18.2.0
@@ -11410,6 +11571,9 @@ packages:
     hasBin: true
     peerDependencies:
       postcss: ^8.0.9
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -11919,6 +12083,11 @@ packages:
     peerDependencies:
       react: 16.8.0 - 18
       react-dom: 16.8.0 - 18
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       '@juggle/resize-observer': 3.4.0
       react: 18.2.0

@@ -31,5 +31,15 @@
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
     "turbo": "^1.8.8"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "postcss",
+        "preact",
+        "react",
+        "react-dom"
+      ]
+    }
   }
 }
