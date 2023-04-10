@@ -9,7 +9,7 @@ module.exports = {
   output: 'standalone',
   poweredByHeader: false,
   reactStrictMode: true,
-  transpilePackages: ['@suna/hooks', '@suna/ui', '@suna/utils'],
+  transpilePackages: ['@suna/ui'],
   typescript: { tsconfigPath: 'tsconfig.build.json' },
   webpack: (config) => {
     config.plugins.push(

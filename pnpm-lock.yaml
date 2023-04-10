@@ -19,6 +19,9 @@ importers:
 
   apps/challenges:
     dependencies:
+      '@babel/runtime':
+        specifier: ^7.21.0
+        version: 7.21.0
       '@suna/hooks':
         specifier: workspace:^
         version: link:../../packages/hooks
@@ -50,12 +53,6 @@ importers:
       '@types/react-dom':
         specifier: ^18.0.11
         version: 18.0.11
-      '@typescript-eslint/eslint-plugin':
-        specifier: ^5.57.1
-        version: 5.57.1(@typescript-eslint/parser@5.57.1)(eslint@8.38.0)(typescript@5.0.4)
-      '@typescript-eslint/parser':
-        specifier: ^5.57.1
-        version: 5.57.1(eslint@8.38.0)(typescript@5.0.4)
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.21)
@@ -65,12 +62,12 @@ importers:
       eslint-config-suna:
         specifier: workspace:^
         version: link:../../packages/eslint-config-suna
-      prettier:
-        specifier: ^2.8.7
-        version: 2.8.7
+      postcss:
+        specifier: ^8.4.21
+        version: 8.4.21
       tailwindcss:
         specifier: ^3.3.1
-        version: 3.3.1(postcss@8.4.21)
+        version: 3.3.1
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
@@ -146,7 +143,7 @@ importers:
         version: 2.8.7
       tailwindcss:
         specifier: ^3.3.1
-        version: 3.3.1(postcss@8.4.21)
+        version: 3.3.1
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
@@ -233,7 +230,7 @@ importers:
         version: 2.8.7
       tailwindcss:
         specifier: ^3.3.1
-        version: 3.3.1(postcss@8.4.21)
+        version: 3.3.1
     devDependencies:
       eslint:
         specifier: ^8.38.0
@@ -451,7 +448,7 @@ importers:
         version: 7.0.2
       tailwindcss:
         specifier: ^3.3.1
-        version: 3.3.1(postcss@8.4.21)
+        version: 3.3.1
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
@@ -6933,7 +6930,7 @@ packages:
     dependencies:
       fast-glob: 3.2.12
       postcss: 8.4.21
-      tailwindcss: 3.3.1(postcss@8.4.21)
+      tailwindcss: 3.3.1
     dev: false
 
   /eslint-plugin-testing-library@5.10.2(eslint@8.38.0)(typescript@5.0.4):
@@ -11240,12 +11237,10 @@ packages:
     resolution: {integrity: sha512-Y17eDp7FtN1+JJ4OY0Bqv9OA41O+MS8c1Iyr3T6JFLnOgLg3EvcyMKZAnQ8AGyvB5Nxm3t9Xb5Mhe139m8QT/g==}
     dev: false
 
-  /tailwindcss@3.3.1(postcss@8.4.21):
+  /tailwindcss@3.3.1:
     resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
