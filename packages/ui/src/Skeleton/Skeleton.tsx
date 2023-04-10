@@ -1,7 +1,7 @@
+import type { OverridableComponent } from '@suna/types';
 import { forwardRef } from 'react';
 import { twJoin } from 'tailwind-merge';
 
-import type { OverridableComponent } from '../types';
 import skeletonClasses from './skeletonClasses';
 import type { SkeletonProps, SkeletonTypeMap } from './skeletonTypes';
 

@@ -1,4 +1,5 @@
-import type { ClassNameValue } from '../types';
+import type { ClassNameValue } from '@suna/types';
+
 import type { SkeletonAnimation, SkeletonVariant } from './skeletonTypes';
 
 const animations: Record<SkeletonAnimation, () => ClassNameValue> = {

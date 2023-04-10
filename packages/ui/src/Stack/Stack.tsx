@@ -1,7 +1,7 @@
+import type { OverridableComponent } from '@suna/types';
 import { Children, forwardRef } from 'react';
 import { twJoin } from 'tailwind-merge';
 
-import type { OverridableComponent } from '../types';
 import stackClasses from './stackClasses';
 import type { StackProps, StackTypeMap } from './stackTypes';
 

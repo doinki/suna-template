@@ -1,6 +1,5 @@
+import type { OverrideProps } from '@suna/types';
 import type { ElementType } from 'react';
-
-import type { OverrideProps } from '../types';
 
 export type SkeletonAnimation = 'pulse';
 export type SkeletonVariant = 'circular' | 'rectangular' | 'rounded' | 'text';
@@ -31,5 +30,5 @@ export interface SkeletonTypeMap<P = {}, D extends ElementType = 'span'> {
 
 export type SkeletonProps<
   P = {},
-  D extends React.ElementType = SkeletonTypeMap['defaultComponent']
+  D extends ElementType = SkeletonTypeMap['defaultComponent']
 > = OverrideProps<SkeletonTypeMap<P, D>, D>;

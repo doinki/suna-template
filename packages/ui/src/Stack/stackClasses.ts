@@ -1,4 +1,5 @@
-import type { ClassNameValue } from '../types';
+import type { ClassNameValue } from '@suna/types';
+
 import type { StackDirection } from './stackTypes';
 
 const directions: Record<StackDirection, () => ClassNameValue> = {

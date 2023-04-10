@@ -1,4 +1,5 @@
-import type { ClassNameValue } from '../types';
+import type { ClassNameValue } from '@suna/types';
+
 import type { DividerOrientation } from './dividerTypes';
 
 const orientations: Record<DividerOrientation, () => ClassNameValue> = {

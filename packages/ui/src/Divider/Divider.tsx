@@ -1,7 +1,7 @@
+import type { OverridableComponent } from '@suna/types';
 import { forwardRef } from 'react';
 import { twJoin } from 'tailwind-merge';
 
-import type { OverridableComponent } from '../types';
 import dividerClasses from './dividerClasses';
 import type { DividerProps, DividerTypeMap } from './dividerTypes';
 

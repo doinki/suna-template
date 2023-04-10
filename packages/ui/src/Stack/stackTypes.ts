@@ -1,6 +1,5 @@
+import type { OverrideProps } from '@suna/types';
 import type { ElementType, ReactNode } from 'react';
-
-import type { OverrideProps } from '../types';
 
 export type StackDirection =
   | 'column'
