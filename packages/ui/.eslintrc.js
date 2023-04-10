@@ -10,7 +10,6 @@ module.exports = {
       'error',
       { extendDefaults: true, types: { '{}': false } },
     ],
-    '@typescript-eslint/no-explicit-any': 'off',
   },
   settings: {
     tailwindcss: { config: require.resolve('./tailwind.config.js') },
