@@ -9,7 +9,9 @@
       "dependsOn": ["^build:storybook"],
       "outputs": ["storybook-static/**"]
     },
-    "lint": {},
+    "dev": { "cache": false, "persistent": true },
+    "lint": { "outputs": [".eslintcache"] },
+    "storybook": { "cache": false, "persistent": true },
     "test": {},
     "test:coverage": { "outputs": ["coverage/**"] },
     "test:watch": { "cache": false, "persistent": true }
