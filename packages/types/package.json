@@ -1,0 +1,34 @@
+{
+  "name": "@suna/types",
+  "private": true,
+  "sideEffects": false,
+  "types": "src/index.d.ts",
+  "scripts": {
+    "lint": "eslint --cache ."
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "next": "^13.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    },
+    "next": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@suna/tsconfig": "workspace:^",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "eslint-config-suna": "workspace:^",
+    "next": "^13.3.0",
+    "typescript": "^5.0.4"
+  }
+}
