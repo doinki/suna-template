@@ -20,6 +20,7 @@
     "challenges": "pnpm --filter=challenges",
     "material-ui": "pnpm --filter=material-ui",
     "hooks": "pnpm --filter=@suna/hooks",
+    "icons": "pnpm --filter=@suna/icons",
     "types": "pnpm --filter=@suna/types",
     "ui": "pnpm --filter=@suna/ui",
     "utils": "pnpm --filter=@suna/utils",

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Circle /> snapshot 1`] = `
+<svg
+  aria-hidden="true"
+  height="1em"
+  viewBox="0 0 32 32"
+  width="1em"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <lineargradient
+      id="-"
+    >
+      <stop
+        offset="0%"
+        stop-color="#0f4c81"
+      />
+      <stop
+        offset="50%"
+        stop-color="#6667ab"
+      />
+      <stop
+        offset="100%"
+        stop-color="#98b4d4"
+      />
+    </lineargradient>
+  </defs>
+  <circle
+    cx="16"
+    cy="16"
+    fill="url(#-)"
+    r="14"
+    stroke="#000"
+    stroke-width="2"
+  />
+</svg>
+`;
