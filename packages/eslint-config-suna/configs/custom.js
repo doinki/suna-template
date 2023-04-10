@@ -6,6 +6,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   ignorePatterns: ['coverage', 'dist', 'public', 'storybook-static'],
   rules: {
+    '@typescript-eslint/no-unsafe-assignment': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
