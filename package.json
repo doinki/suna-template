@@ -12,6 +12,7 @@
     "storybook": "turbo run storybook",
     "build": "turbo run build",
     "build:storybook": "turbo run build:storybook",
+    "check-types": "turbo run check-types",
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
     "test:watch": "turbo run test:watch",
