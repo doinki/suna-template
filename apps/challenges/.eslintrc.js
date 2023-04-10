@@ -8,5 +8,6 @@ module.exports = {
     'import/resolver': {
       typescript: { project: require.resolve('./tsconfig.json') },
     },
+    tailwindcss: { config: require.resolve('./tailwind.config.js') },
   },
 };
