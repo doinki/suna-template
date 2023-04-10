@@ -15,21 +15,17 @@ const rules = {
   ],
   'react/prop-types': 'off',
   'react/require-default-props': 'off',
-  'salt/react-hook-dependencies': 'warn',
-  'trim/argument': 'warn',
-  'trim/class-name': 'warn',
 };
 
 /**
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  env: { browser: true },
-  extends: ['./base.js', 'airbnb', 'airbnb/hooks', 'plugin:react/jsx-runtime'],
+  env: { browser: true, es2022: true },
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:react/jsx-runtime'],
   overrides: [
     {
       extends: [
-        './base.js',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'airbnb',
@@ -48,11 +44,22 @@ module.exports = {
     },
   ],
   parserOptions: { ecmaVersion: 'latest' },
-  plugins: ['salt', 'trim'],
-  rules,
-  settings: {
-    tailwindcss: {
-      callees: ['classnames', 'clsx', 'ctl', 'twJoin', 'twMerge'],
-    },
+  plugins: [
+    'salt',
+    'simple-import-sort',
+    'sort-destructure-keys',
+    'sort-keys-fix',
+    'trim',
+  ],
+  rules: {
+    ...rules,
+    'salt/react-hook-dependencies': 'warn',
+    'simple-import-sort/exports': 'warn',
+    'simple-import-sort/imports': 'warn',
+    'sort-destructure-keys/sort-destructure-keys': 'warn',
+    'sort-keys-fix/sort-keys-fix': 'warn',
+    'trim/argument': 'warn',
+    'trim/class-name': 'warn',
   },
+  settings: { 'import/resolver': { typescript: { alwaysTryTypes: true } } },
 };

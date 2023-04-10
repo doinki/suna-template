@@ -8,29 +8,13 @@
   "name": "eslint-config-suna",
   "private": true,
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint --cache ."
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.32.0 || ^8.2.0",
-    "prettier": "^2.0.0",
-    "tailwindcss": "^3.2.2",
     "typescript": "^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    },
-    "prettier": {
-      "optional": true
-    },
-    "tailwindcss": {
-      "optional": true
-    },
     "typescript": {
       "optional": true
     }
@@ -38,6 +22,8 @@
   "dependencies": {
     "@next/eslint-plugin-next": "^13.3.0",
     "@rushstack/eslint-patch": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -58,15 +44,12 @@
     "eslint-plugin-tailwindcss": "^3.11.0",
     "eslint-plugin-testing-library": "^5.10.2",
     "eslint-plugin-trim": "^0.4.0",
-    "eslint-plugin-typescript-sort-keys": "^2.3.0"
+    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
     "eslint": "^8.38.0",
-    "prettier": "^2.8.7",
-    "tailwindcss": "^3.3.1",
     "typescript": "^5.0.4"
   }
 }
