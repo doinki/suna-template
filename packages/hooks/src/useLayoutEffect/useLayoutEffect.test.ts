@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useLayoutEffect } from '../src';
+import useLayoutEffect from './useLayoutEffect';
 
 describe('useLayoutEffect', () => {
   test('should be `React.useLayoutEffect` if browser', () => {

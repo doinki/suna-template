@@ -1,4 +1,4 @@
 import { isBrowser } from '@suna/utils';
-import React from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 
-export default isBrowser() ? React.useLayoutEffect : React.useEffect;
+export default isBrowser() ? useLayoutEffect : useEffect;
