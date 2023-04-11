@@ -1,5 +1,5 @@
 import type { OverrideProps } from '@suna/types';
-import type { ElementType, ReactNode } from 'react';
+import type { ElementType, ReactElement } from 'react';
 
 export type StackDirection =
   | 'column'
@@ -20,7 +20,7 @@ export interface StackTypeMap<P = {}, D extends ElementType = 'div'> {
      */
     direction?: StackDirection;
 
-    divider?: ReactNode;
+    divider?: ReactElement;
   };
 }
 
